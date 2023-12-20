@@ -1,0 +1,68 @@
+#contenPopulares{
+    padding: 0;
+    margin: 70px 0;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+h3{
+    padding: 10px 30px;
+    margin: 0px 40px;
+    color: black;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#contenPopulares > img{
+    width: 100%;
+    height: auto;
+}
+
+.itemsPopulares{
+    padding: 0 20px;
+    grid-template-columns: 
+    repeat(
+        auto-fit, 
+        minmax(50px, 1fr)
+        );
+    gap: 10px;
+}
+.imgChicas{
+    grid-template-rows: repeat(50%, 2fr);
+}
+#contenPopulares > .itemsPopulares > .zapatillas{
+    width: 320px;
+    height: 100%;
+}
+
+#contenPopulares > .itemsPopulares > .zapatillas > img{
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+}
+
+
+#contenPopulares > .itemsPopulares > .imgChicas{
+    width: auto;
+    height: auto;
+    padding-right: 120px;
+}
+
+#contenPopulares > .itemsPopulares > .imgChicas > img{
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+#contenPopulares > .itemsPopulares > .pelotas{
+    padding-right: 100px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#contenPopulares > .itemsPopulares > .pelotas > img{
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+}

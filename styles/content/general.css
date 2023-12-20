@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body,
+#carrusel,
+#tendencias,
+#vitrina,
+footer{
+    margin: 0;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.d-flex{
+    display: flex;
+}

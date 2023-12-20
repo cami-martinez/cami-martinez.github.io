@@ -1,0 +1,15 @@
+/* Reglas generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&family=Rubik:wght@400;500;700;800&display=swap');
+@import url('content/general.css');
+/* CABECERA */
+@import url('content/header.css');
+/* CARRUCEL */
+@import url('content/carrucel.css');
+/* PRODUCTOS */
+@import url('products/tendencias.css');
+@import url('products/populares.css');
+@import url('products/vendidas.css');
+@import url('products/vitrina.css');
+
+/* FOOTER */
+@import url('content/footer.css');

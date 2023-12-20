@@ -1,0 +1,141 @@
+#footer{
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    background: black;
+    font-family: Rubik;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.footer-links{
+    text-transform: uppercase;
+    width: 33%;
+    padding: 0 15px;
+}
+
+.footer-links ul li a{
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button{
+    background: black;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    position: relative;
+}
+
+.logofooter{
+    width: 33%;
+}
+
+.shopFooter{
+    margin: 30%;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    padding: 10px 50px;
+}
+
+.right div a{
+    padding: 0 5px;
+}
+.derechos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.derechos > .left{
+    display: contents;
+    width: 50%;
+    padding: 0px;
+}
+
+.left > img{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.derechosRight{
+    display: contents;
+    justify-content: end;
+    width: 50%;
+    padding: 0 30px;
+    color: aliceblue;
+}
+
+.derechosRight > img{
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    padding: 0 10px;
+
+}
+
+#footer ul li a,
+.shopFooter,
+.footer-row > .right div a,
+.footer-row > .right > .redes,
+.derechos > .left p{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 858px) {
+    .footer-links,
+    .logofooter,
+    .right{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .footer-links ul li a{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .logofooter{
+        position: absolute;
+        padding: 0;
+    }
+    button{
+        margin: 0 40%;
+    }
+    .right div{
+        padding: 10px 0;
+        margin: 0 30%;
+        text-align: center;
+    }
+    .right div .ubi,
+    .right div a{
+        padding: 0 20px;
+    }
+    .derechos{
+        padding: 0 50px 0 50px;
+        width: 100%;
+    }
+}

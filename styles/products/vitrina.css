@@ -1,0 +1,37 @@
+#vitrina{
+    background: #ECECEC;
+    padding: 20px 0;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.containerVitrina{
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
+
+
+#circle{
+    display: none;
+}
+
+
+@media (max-width: 858px) {
+    #vitrina{
+        padding: 10px 20px;
+        margin: 0;
+        box-sizing: border-box;
+        height: 400px;
+        overflow: hidden;
+    }
+}
